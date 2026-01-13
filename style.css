@@ -145,7 +145,8 @@ nav{
 
 .love{
     justify-content: space-between;
-    /* gap: 60px; */
+    max-width: 1440px;
+    gap: 60px;
 }
 
 .love-about{
@@ -213,6 +214,13 @@ nav{
 main > section{
     margin-top: 60px;
 }
+
+.love,
+nav,
+.features{
+    flex-direction: column;
+}
+
 /* navbar & hero section */
 
 header{
@@ -226,7 +234,6 @@ header{
 }
 
 nav{
-        flex-direction: column;
         align-items: center;
         gap: 20px;
 }
@@ -267,7 +274,6 @@ nav{
 
 /* features section design */
 .features{
-    flex-direction: column;
     margin-top: 60px;
 }
 
@@ -290,6 +296,60 @@ nav{
     margin-bottom: 25px;
 }
 
+/* love section style */
+.love-title{
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.love-description{
+    font-size: 1rem;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.card-info{
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 30px 0 rgba(255, 0, 0, 0.06);
+}
+
+.card-heading{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.card-description{
+    font-size: 1rem;
+    line-height: 26px;
+}
+
+.love-img img{
+    width: 100%;
+}
+.badge{
+    padding: 15px 25px;
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.years{
+    font-size: 3rem;
+    line-height: 50px;
+    font-weight: 700;
+}
+
+.experience{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+
 }
 
 /* Tablet responsive style */
@@ -308,6 +368,11 @@ main > section{
     font-size: 1rem;
 }
 
+
+.love,
+.features{
+    flex-direction: column;
+}
 
 /* navbar & hero section */
     header{
@@ -339,11 +404,6 @@ main > section{
 
 /* features section */
 
-.features{
-    flex-direction: column;
-
-}
-
 .features-imgs{
     grid-template-columns: repeat(2, 1fr);
 }
@@ -351,5 +411,14 @@ main > section{
 .features-title{
     margin-left: 10px;
     margin-top: 30px;
+}
+
+
+/* love section style */
+.badge{
+    padding: 15px 25px;
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
 }
 }

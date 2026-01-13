@@ -146,9 +146,14 @@ nav{
 /* phone responsive style */
 @media screen and (max-width:576px) {
 
+    /* shared style */
 .max-width{
-        margin: 10px;
+    margin: 10px;
 }
+main > section{
+    margin-top: 60px;
+}
+/* navbar & hero section */
 
 header{
     padding-top: 30px;
@@ -200,14 +205,51 @@ nav{
     font-size: 1rem;
 }
 
+/* features section design */
+.features{
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.features-imgs{
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.features-title{
+    margin-top: 30px;
+}
+
+.features-heading{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.features-description{
+    font-size: 1rem;
+    line-height: 26px;
+    margin-bottom: 25px;
+}
+
 }
 
 /* Tablet responsive style */
 @media screen and (min-width:577px) and (max-width:992px) {
+    /* shared style */
     .max-width{
         margin: 20px;
 }
 
+main > section{
+    margin-top: 60px;
+}
+
+.btn{
+    padding: 15px 20px;
+    font-size: 1rem;
+}
+
+
+/* navbar & hero section */
     header{
     padding-top: 30px;
     padding-bottom: 20px;
@@ -233,9 +275,21 @@ nav{
 .image{
     width: 100%;
 }
-.btn{
-    padding: 15px 20px;
-    font-size: 1rem;
+
+
+/* features section */
+
+.features{
+    flex-direction: column;
+
 }
 
+.features-imgs{
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.features-title{
+    margin-left: 10px;
+    margin-top: 30px;
+}
 }

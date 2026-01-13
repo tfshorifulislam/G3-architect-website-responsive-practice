@@ -108,11 +108,44 @@ nav{
     margin-bottom: 50px;
 }
 
+/* features style */
 
+.features{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.features-imgs{
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.features-title{
+    margin-left: 70px;
+    /* max-width: 537px; */
+}
+
+.features-heading{
+    font-size: 2.8125rem;
+    font-weight: 700;
+    color: #FF900E;
+    margin-bottom: 24px;
+}
+
+.features-heading .text-light-gray{
+    font-weight: 500;
+}
+
+.features-description{
+    font-size: 1rem;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
 
 /* phone responsive style */
 @media screen and (max-width:576px) {
-    
+
 .max-width{
         margin: 10px;
 }

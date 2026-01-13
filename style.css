@@ -143,6 +143,66 @@ nav{
     margin-bottom: 32px;
 }
 
+.love{
+    justify-content: space-between;
+    /* gap: 60px; */
+}
+
+.love-about{
+    max-width: 570px;
+}
+
+.love-title{
+    font-size: 2.8125rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.love-description{
+    font-size: 1rem;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.card-info{
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 30px 0 rgba(255, 0, 0, 0.06);
+}
+
+.card-heading{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.card-description{
+    font-size: 1rem;
+    line-height: 26px;
+}
+
+.love-img{
+    max-width: 710px;
+}
+.badge{
+    padding: 45px 42px;
+    margin-top: -125px;
+    margin-left: -90px;
+}
+
+.years{
+    font-size: 4.0625rem;
+    line-height: 70px;
+    font-weight: 700;
+}
+
+
+.experience{
+    font-size: 1.5625rem;
+    font-weight: 500;
+    line-height: 40px;
+}
 /* phone responsive style */
 @media screen and (max-width:576px) {
 

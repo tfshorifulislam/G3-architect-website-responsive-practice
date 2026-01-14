@@ -185,10 +185,14 @@ nav{
     line-height: 26px;
 }
 
-.badge{
-    padding: 45px 42px;
+#badge{
+    background-color:#FF900E ;
+    border-radius: 8px;
+    padding: 45px 40px;
+    color: white;
+    border: none;
+    margin-left: -77px;
     margin-top: -125px;
-    margin-left: -92px;
 }
 
 .years{
@@ -286,6 +290,8 @@ nav{
     margin-top: 60px;
 }
 
+
+
 .features-imgs{
     grid-template-columns: repeat(1, 1fr);
 }
@@ -306,134 +312,31 @@ nav{
 }
 
 /* about section style */
-.about-title{
-    font-size: 1.5rem;
-    font-weight: 800;
-    margin-bottom: 24px;
-}
-
-.about-description{
-    font-size: 1rem;
-    line-height: 24px;
-    margin-bottom: 30px;
-}
-
-.card-info{
-    padding: 30px;
-    border-radius: 8px;
-    margin-bottom: 20px;
-    box-shadow: 0 4px 30px 0 rgba(255, 0, 0, 0.06);
-}
-
-.card-heading{
-    font-size: 1rem;
-    font-weight: 600;
-    margin-bottom: 10px;
-}
-
-.card-description{
-    font-size: 1rem;
-    line-height: 26px;
-}
-
 .about-img img{
-    width: 100%;
+    max-width: 100%;
 }
-.badge{
-    padding: 15px 25px;
-    display: block;
-    justify-content: center;
+
+.about{
+    flex-direction: column;
+    gap: 30px;
+}
+
+#badge{
+    padding: 45px 40px;
     margin: 0 auto;
+    display: block;
 }
 
 .years{
     font-size: 3rem;
-    line-height: 50px;
+    line-height: 30px;
     font-weight: 700;
 }
+
 
 .experience{
     font-size: 1rem;
     font-weight: 500;
     line-height: 20px;
 }
-
-
-}
-
-/* Tablet responsive style */
-@media screen and (min-width:577px) and (max-width:992px) {
-    /* shared style */
-    .max-width{
-        margin: 20px;
-}
-
-main > section{
-    margin-top: 60px;
-}
-
-.btn{
-    padding: 15px 20px;
-    font-size: 1rem;
-}
-
-
-.about,
-.features{
-    flex-direction: column;
-}
-
-/* navbar & hero section */
-    header{
-    padding-top: 30px;
-    padding-bottom: 20px;
-}
-
-    .brand{
-    font-size: 2rem;
-    font-weight: bold;
-}
-    .hero{
-    padding-top: 40px;
-    margin: 0 auto;
-    text-align: center;
-    max-width: 850px;
-}
-
-.hero-heading{
-    font-size: 3rem;
-}
-.hero .btn{
-    margin-bottom: 30px;
-}
-.image{
-    width: 100%;
-}
-
-
-/* features section */
-
-.features-imgs{
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.features-title{
-    margin-left: 10px;
-    margin-top: 30px;
-}
-
-
-/* about section style */
-.badge{
-    padding: 15px 25px;
-    display: block;
-    justify-content: center;
-    margin: 0 auto;
-}
-
-.about-img{
-    display: block;
-    margin: 0 auto;
-}
-
 }

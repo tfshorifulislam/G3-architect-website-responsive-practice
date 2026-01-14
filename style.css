@@ -426,6 +426,50 @@ nav{
 
 
 
+/* sponsor section design */
+
+.facts-heading{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.facts-description{
+    font-size: 1rem;
+    line-height: 20px;
+    margin-bottom: 80px;
+}
+
+.facts-card{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.facts-card-info h3{
+    font-size:2rem ;
+}
+
+.facts-card-info p{
+    font-size: 1rem;
+
+}
+
+.sponspors-heading{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.spopnspors-description{
+    font-size: 1rem;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+.sponspors-companies{
+    display: grid;
+    text-align: center;
+    gap: 25px;
+    grid-template-columns: repeat(1, 1fr);
+}
 
 
 

@@ -281,23 +281,30 @@ nav{
     justify-content: space-between;
 }
 
-.sponser-img{
+.sponsor-img{
     filter: grayscale(100%);
 }
 
 
 /* footer section design */
-footer{
-    margin-top: 130px;
-    margin-bottom: 216px;
-    padding: 40px 410px;
+footer {
+    margin:130px auto;
+    max-width: 1440px;
+
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
 }
 
-.copy-right{
-    font-size:1.25rem;
+.copyright{
+    font-size: 1.25rem;
+    text-align: center;
+
 }
-
-
 
 /* phone responsive style */
 @media screen and (max-width:576px) {
@@ -477,13 +484,13 @@ nav{
     margin-bottom: 20px;
 }
 
-.spopnspors-description{
+.sponsors-description{
     font-size: 1rem;
     line-height: 20px;
     margin-bottom: 30px;
 }
 
-.sponspors-companies{
+.sponsors-companies{
     display: grid;
     text-align: center;
     gap: 25px;
@@ -491,5 +498,14 @@ nav{
 }
 
 
+/* footer section design */
+footer {
+    margin-top:80px;
+
+}
+.footer-container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
 }

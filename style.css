@@ -45,6 +45,7 @@ main >section{
 .display-flex{
     display: flex;
 }
+
 .btn{
     padding: 20px 24px;
     border: none;
@@ -54,12 +55,13 @@ main >section{
     font-weight: 600;
     color: white;
 }
-/* main style */
 
+/* main style */
 header{
     padding-top: 50px;
     padding-bottom: 45px;
 }
+
 
 /* navbar related style */
 nav{
@@ -108,6 +110,7 @@ nav{
     margin-bottom: 50px;
 }
 
+
 /* features style */
 
 .features{
@@ -123,7 +126,6 @@ nav{
 
 .features-title{
     margin-left: 70px;
-    /* max-width: 537px; */
 }
 
 .features-heading{
@@ -144,6 +146,7 @@ nav{
 }
 
 
+
 /* about section style */
 
 .about{
@@ -161,6 +164,7 @@ nav{
     padding-left: 10px;
     border-left: 7px solid #FF900E;
 }
+
 .about-description{
     font-size: 1rem;
     line-height: 24px;
@@ -212,6 +216,7 @@ nav{
 
 /* facts related style */
 
+
 .facts-heading{
     font-size: 2.8125rem;
     font-weight: 700;
@@ -253,29 +258,43 @@ nav{
 }
 
 
-.sponspors-title{
+/* sponsor section */
+
+.sponsors-title{
     text-align: center;
 }
 
-.sponspors-heading{
+.sponsors-heading{
     font-size: 2.8125rem;
     font-weight: 700;
     margin-bottom: 24px;
 }
 
-.spopnspors-description{
+.sponsors-description{
     font-size: 1rem;
     line-height: 26px;
     margin-bottom: 50px;
 }
 
 
-.sponspors-companies{
+.sponsors-companies{
     justify-content: space-between;
 }
 
 .sponser-img{
     filter: grayscale(100%);
+}
+
+
+/* footer section design */
+footer{
+    margin-top: 130px;
+    margin-bottom: 216px;
+    padding: 40px 410px;
+}
+
+.copy-right{
+    font-size:1.25rem;
 }
 
 
